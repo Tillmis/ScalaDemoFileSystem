@@ -41,7 +41,7 @@ class Cd(dir: String) extends Command {
     }
     // 1. tokens
     val tokens: List[String] = path.substring(1).split(Directory.SEPARATOR).toList
-    
+
 
     @tailrec
     def collapseRelativeTokens(path: List[String], result: List[String]): List[String] = {
