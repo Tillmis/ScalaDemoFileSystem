@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88239a2f-6671-4a84-9ba7-d098b051b1db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Echo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cat.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/commands/UnknownCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/commands/UnknownCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/DirEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/DirEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/Directory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/Directory$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/Directory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/files/Directory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/filesystem/FileSystem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/filesystem/FileSystem$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_system/com/rtjvm/scala/oop/filesystem/FileSystem.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/File.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +30,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#40#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cat.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Echo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="591">
+              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
               <folding>
                 <element signature="e#38#88#0" expanded="true" />
               </folding>
@@ -47,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/File.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+            <state relative-caret-position="68">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -82,7 +107,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/UnknownCommand.scala" />
-        <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/State.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Ls.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Pwd.scala" />
@@ -94,16 +118,11 @@
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cd.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/Directory.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Rm.scala" />
-        <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/File.scala" />
         <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Echo.scala" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/dictionaries/kwiatek.xml" />
+        <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cat.scala" />
+        <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala" />
+        <option value="$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala" />
       </list>
     </option>
   </component>
@@ -228,10 +247,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" weight="0.32997763" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23489933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23489933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -261,16 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,26 +388,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Echo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="591">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding>
+            <element signature="e#38#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/File.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        <state relative-caret-position="68">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Echo.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cat.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Command.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rtjvm/scala/oop/filesystem/FileSystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#38#88#0" expanded="true" />
+            <element signature="e#40#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
